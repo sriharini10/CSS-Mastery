@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:enabled{
+            background-color: aqua;
+        }
+        input:disabled{
+            background-color: rgb(185, 133, 143);
+        }
+        input:checked{
+
+            /* background color doesnt work for radio and checkbox 
+            must have to use accent color */
+            accent-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>UI State Pseudo Class Selectors</h1>
+    <input type="text" name="" id="">
+    <input type="text">
+    <hr>
+    <input type="text" name="" id=""  value="ABC-123" disabled>
+    <hr>
+    <input type="checkbox" name="" id="" checked> Skill
+    <input type="radio" name="" id="" checked> Gender
+</body>
+</html>
