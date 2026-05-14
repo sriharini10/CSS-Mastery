@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #para::first-letter {
+        color: blue;
+        font-size: 50px;
+      }
+      #para::first-line {
+        background-color: yellow;
+      }
+      #para::after {
+        content: "Content added after the paragraph with the help of CSS";
+        color: crimson;
+      }
+      #para::before {
+        content: "Content added before the paragraph with the help of CSS";
+        color: purple;
+      }
+      li::marker {
+        color: blueviolet;
+      }
+      #para2::selection{
+        background-color: chartreuse;
+        color:firebrick
+      }
+      input{
+        /* caret color is used to change cursor color */
+        caret-color:orangered;
+      }
+      input::placeholder{
+        color:mediumblue;
+        font-size: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo element Selector(::)</h1>
+    <p>
+      Pseudo element Selector is used to change the some part of HTML element
+    </p>
+    <p id="para">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      <br />Voluptates, magnam! Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Saepe, totam?
+    </p>
+
+    <hr />
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ul>
+
+    <hr />
+
+    <p id="para2">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora
+      necessitatibus odit assumenda facere laboriosam totam accusantium iste
+      nisi commodi hic laudantium repudiandae, illum earum consequuntur eum sint
+      asperiores nulla sequi repellat exercitationem, odio, ullam quam? Ipsa,
+      tenetur impedit. Nisi rem reiciendis culpa quidem. Ab expedita suscipit
+      adipisci repellendus vero ipsum!
+    </p>
+
+    <hr>
+
+    <label for="">Name:</label>
+    <input type="text" name="" id="" placeholder="Enter your first name">
+
+  </body>
+</html>
