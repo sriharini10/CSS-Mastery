@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            gap:100px;
+        }
+        .box{
+            width: 400px;
+            height: 400px;
+            background-color: crimson;
+        }
+        .ball{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            transform: translate(-100px ,-100px);
+            border-radius: 50%;
+            animation: rollerBall 5s linear infinite ;
+            
+        }
+
+        @keyframes rollerBall {
+
+            0%{
+                transform: translate(-50px,-100px);
+            }
+            25%{
+                transform: translate(400px,-100px);
+                background-color: chartreuse;
+            }
+            50%{
+                transform: translate(400px,400px);
+                background-color: deepskyblue;
+            }
+            75%{
+                transform: translate(-100px,400px);
+                background-color: darkorange;
+            }
+            
+            
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Box Roller</h1>
+    <div class="box">
+        <div class="ball"></div>
+    </div>
+    
+</body>
+</html>
