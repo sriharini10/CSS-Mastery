@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+      .box {
+        width: 500px;
+        height: 300px;
+        background-color: white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        margin: 30px auto;
+        border: 1px solid red;
+      }
+      #box1 {
+        /* overflow: visible; */
+        /* overflow: hidden; */
+        overflow: auto; /*Mosly use auto it identify which direction content is overflowing and add the scrollbar in that direction vertical or horizondal*/
+        /* overflow: scroll; */
+      }
+      #box2 {
+        /* overflow-y: auto; */
+        overflow-y: scroll;
+      }
+      #box3{
+        white-space: nowrap; 
+        /* overflow: auto; */
+        overflow-x: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Overflow Property</h1>
+    <div class="box" id="box1">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quisquam
+      autem excepturi distinctio tenetur hic debitis Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Enim, unde obcaecati sint tenetur cumque,
+      nam rem quaerat iure numquam velit eius earum, amet et sapiente
+      consectetur sed dicta optio ducimus ea accusamus iste atque. Provident
+      inventore culpa consequuntur commodi quisquam laudantium velit, minus hic
+      itaque sapiente cumque adipisci, quasi et. Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Neque dicta nemo quaerat ratione
+      necessitatibus id magni vitae quae repudiandae ea deserunt non cum, quis
+      culpa voluptate, nisi unde earum aliquam minus in tempora! Obcaecati illo
+      magnam corporis, minima earum sit unde consequatur labore eius quasi
+      commodi? Velit exercitationem quod modi! Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Natus, iure, dignissimos nihil dolorem
+      similique neque necessitatibus repellat aspernatur porro accusamus commodi
+      perspiciatis sit. Voluptates, beatae. Nam quasi, ullam debitis voluptatem
+      reprehenderit, aspernatur fuga culpa impedit quos sint laboriosam eius.
+      incidunt perspiciatis aut quia! Eveniet quisquam recusandae unde doloribus
+      consequuntur aut architecto quibusdam perferendis provident assumenda
+      alias inventore voluptatibus, quo aperiam, voluptas error minus? Aut,
+      fugiat. Non veniam eligendi libero culpa laudantium quilorem*
+    </div>
+    <div class="box" id="box2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quae
+      nesciunt eveniet, odit ratione illum hic, voluptas, reprehenderit itaque
+      magni iusto soluta cumque voluptatibus veritatis nostrum nemo vitae non
+      veniam? Temporibus quod labore non vel praesentium vitae magnam rerum?
+      Corrupti non rem nisi cupiditate impedit, magnam incidunt minima at beatae
+      ut delectus neque, commodi eligendi natus quae qui tempore blanditiis. Eum
+      est iure, facere illum perspiciatis atque delectus aut illo quam. Dolorum
+      fugit iusto, quia quaerat quo obcaecati. Error, harum aliquam quibusdam
+      hic iure fugiat et illo omnis similique aut. Excepturi atque nulla nihil
+      repellat? Dignissimos incidunt molestiae magni aliquid voluptatum non
+      suscipit. Neque culpa eius nulla, voluptate reprehenderit blanditiis
+      veniam ex exercitationem saepe beatae eligendi consequuntur repellendus
+      tempora tempore! Optio, tenetur minima placeat ut dolores aperiam
+      molestiae dolore, et odio mollitia ullam sunt eveniet odit aliquam
+      incidunt quasi obcaecati omnis? Obcaecati cum impedit pariatur esse, ipsam
+      hic quibusdam eius. Eos odit ab enim, neque, labore exercitationem maxime
+      praesentium aliquam quis perferendis cum. Dolore quae, cum voluptas
+      inventore, quisquam itaque cupiditate veniam molestiae officiis optio ab
+      placeat facere, exercitationem iure. Sunt quos adipisci accusamus rerum id
+      perferendis, maiores ratione aperiam ex laborum iusto libero totam quam
+      nisi debitis? Cumque repudiandae corrupti dignissimos magni neque unde
+      dolorum expedita tempore quia dicta. Voluptatum, mollitia ipsum. Quis
+      nesciunt aspernatur exercitationem ut doloremque atque eaque maiores quam
+      neque, molestiae ex in quia soluta eligendi hic labore obcaecati vero
+      reiciendis optio asperiores accusantium rem nobis? Porro quibusdam
+      dignissimos quasi quisquam quo tenetur perspiciatis praesentium pariatur
+      quis ut aperiam recusandae deleniti beatae vel provident, enim qui
+      laudantium illum eos laborum aut minus voluptatibus nesciunt. Autem, quas?
+      Necessitatibus deleniti qui autem facere! Ipsum maiores quisquam quod ea
+      obcaecati porro labore quibusdam eveniet iusto excepturi, possimus,
+      sapiente dolorem fuga nisi quia ad error repellendus deleniti illum
+      corporis. Perferendis.
+    </div>
+
+    <div class="box" id="box3">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
+      accusantium blanditiis accusamus asperiores deserunt voluptatum debitis,
+      beatae eligendi nobis libero reprehenderit tempora molestias suscipit
+      doloremque, maxime placeat iste ipsum. Tempore! Nesciunt et libero in
+      incidunt, necessitatibus optio modi inventore numquam sapiente ut ex!
+      Mollitia, explicabo qui? Natus sapiente itaque ullam inventore,
+      accusantium molestiae ex officia nam perspiciatis! Quisquam, nisi dicta!
+    </div>
+    <div class="box" id="box4"></div>
+    <div class="box" id="box5"></div>
+  </body>
+</html>
